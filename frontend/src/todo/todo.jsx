@@ -43,7 +43,6 @@ export default class Todo extends Component {
   }
 
   handleAdd = event => {
-    console.log(event)
     event.preventDefault()
     Axios.post(URL, {
       description: this.state.description
