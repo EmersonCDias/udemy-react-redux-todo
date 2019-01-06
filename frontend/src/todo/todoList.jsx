@@ -46,7 +46,7 @@ const TodoList = ({
         <thead>
           <tr>
             <th>Description</th>
-            <th className="tableActions">Ações</th>
+            <th className="tableActions">Actions</th>
           </tr>
         </thead>
         <tbody>
